@@ -412,6 +412,7 @@ i {
 
 p {
     margin: 0 0 1.5rem 0;
+    font-size: 0.9rem;
 }
 
 body.is-ie p {
@@ -439,7 +440,7 @@ h4 a,
 h5 a,
 h6 a {
     color: inherit;
-    text-decoration: none;
+    ize text-decoration: none;
 }
 
 h1.major,
@@ -498,25 +499,25 @@ h3.major:after {
 }
 
 h4 {
-    font-size: 1rem;
+    font-size: 0.6rem;
 }
 
 h5 {
-    font-size: 0.9rem;
+    font-size: 0.6rem;
 }
 
 h6 {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
 }
 
 sub {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     position: relative;
     top: 0.5rem;
 }
 
 sup {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     position: relative;
     top: -0.5rem;
 }
@@ -596,7 +597,7 @@ hr {
         bottom: -1.2rem;
     }
     h3 {
-        font-size: 1rem;
+        font-size: 0.6rem;
     }
     h3.major {
         margin: 0 0 1.875rem 0;
@@ -605,13 +606,13 @@ hr {
         bottom: -0.75rem;
     }
     h4 {
-        font-size: 1rem;
+        font-size: 0.6rem;
     }
     h5 {
-        font-size: 0.9rem;
+        font-size: 0.6rem;
     }
     h6 {
-        font-size: 0.7rem;
+        font-size: 0.6rem;
     }
     h1 br,
     h2 br,
@@ -2244,14 +2245,14 @@ button:disabled,
 }
 
 .panel>*.color2 {
-    background-image: url("../../images/team.jpg"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
-    background-size: 250px 400px, auto;
+    background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
+    background-size: 128px 128px, auto;
     background-color: #e37b7c;
 }
 
 .panel>*.color3 {
-    background-image: url("../../images/myfacetest2.jpg");
-    background-size: 250px 500px, auto;
+    background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
+    background-size: 128px 128px, auto;
     background-color: #ffe4b4;
 }
 
@@ -2841,7 +2842,7 @@ button:disabled,
 }
 
 .panel.color2 {
-    background-image: url("../../images/team.jpg"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
+    background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
     background-size: 128px 128px, auto;
     background-color: #e37b7c;
 }
@@ -2850,8 +2851,8 @@ button:disabled,
 /* Skills: Horizontal */
 
 .panel.color3 {
-    background-image: url("../../images/myfacetest2.jpg");
-    background-size: 200px 100px, auto;
+    background-image: url("../../images/overlay.png");
+    background-size: 128px 128px, auto;
     background-color: #ffe4b4;
 }
 
@@ -2902,14 +2903,14 @@ button:disabled,
         background-color: #6a2e2c;
     }
     .panel>*.color2 {
-        background-image: url("../../images/team.jpg"), linear-gradient(135deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
-        background-size: 610px 200px, auto;
+        background-image: url("../../images/overlay.png"), linear-gradient(135deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
+        background-size: 128px 128px, auto;
         background-color: #6a2e2c;
     }
     /* Skills:Vertical */
     .panel>*.color3 {
-        background-image: url("../../images/myfacetest2.jpg");
-        background-size: 600px 300px, auto;
+        background-image: url("../../images/overlay.png");
+        background-size: 128px 128px, auto;
         background-color: #ffe4b4;
     }
     .panel>*.color4 {
